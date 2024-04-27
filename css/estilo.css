@@ -1,0 +1,243 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}  
+
+nav{
+    list-style-type: none;
+    margin: 0%;
+    padding: 1%;
+    background-color: aliceblue;
+}
+
+nav ul li{
+   display:inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    background-color: rgb(176, 206, 233);
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    text-align: center;
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+    text-align: left;
+    background-color: white;
+}
+
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+   
+.presentacion-mascotas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: auto;
+    justify-items: center;
+    background-color: rgb(168, 184, 197);
+}
+
+.presentacion-mascotas div {
+    border: black solid 3px;
+    margin: 10px;
+    padding: 10px;
+   }
+.presentacion-mascotas img{
+    height: 250px;
+}
+
+.presentacion-mascotas div p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+}
+
+.adopcion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(168, 184, 197);
+}
+.adopcion p{
+    font-size: 22px;
+}
+.lista-numerada {
+    counter-reset: lista;
+    list-style: none;
+    font-size: 20px;
+    background-color: rgb(168, 184, 197);
+}
+
+.lista-numerada-adopcion{
+    background-color: rgb(168, 184, 197);
+ font-size: 16px;
+}
+
+.lista-numerada li {
+    counter-increment: lista;
+    margin-bottom: 0.5em; 
+}
+
+.lista-numerada li::before {
+    content: counter(lista) "."; 
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-link {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.btn-link:hover {
+    text-decoration: underline; 
+}
+
+
+.conocelos{
+    display: flex;
+    background-color: rgb(168, 184, 197);
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.conocelos img{
+    height: 250px;
+    
+}
+
+.conocelos p{
+    font-size: 23px;
+}
+
+.container-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(168, 184, 197);
+}
+
+.mensajeria{
+    background-color:rgb(168, 184, 197);
+}
+
+.nosotros {
+    display: flex;
+    background-color: rgb(168, 184, 197);
+    flex-direction: column;
+ }
+.nosotros img{
+    width: 700px;
+    margin: 15px;
+    }
+    
+.nosotros p{
+    font-size: 22px;
+}
+
+
+.footer1{  
+    background-color: rgb(227, 240, 252);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer1 p{
+text-align: left;
+padding: 3%;
+font-size: 15px;
+}
+
+@media (max-width:375px){
+
+    nav li a{
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 10px;
+        }
+    
+    h1{
+        background-color: rgb(176, 206, 233);
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .presentacion-mascotas{
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto;
+        justify-items: center;
+        background-color: rgb(168, 184, 197);
+    }
+
+    .adopcion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(168, 184, 197);
+    }
+    .adopcion p{
+        font-size: 15px;}
+
+    .nosotros {
+        display: flex;
+        background-color: rgb(168, 184, 197);
+        flex-direction: column;
+     }
+    .nosotros img{
+        width: 300px;
+        margin: 15px;
+        }
+        
+    .nosotros p{
+        font-size: 15px;
+    }
+
+    .conocelos{
+        display: flex;
+        background-color: rgb(168, 184, 197);
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .conocelos img{
+        height: 200px;
+        
+    }
+    
+    .conocelos p{
+        font-size: 15px;
+    }
+    .footer1{  
+        background-color: rgb(227, 240, 252);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+       
+}
