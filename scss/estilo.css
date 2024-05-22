@@ -13,7 +13,7 @@ h1 {
 
 h1:hover {
   transform: scale(1.1);
-  transition: transform 0.7s;
+  transition: transform 2s;
 }
 
 h2 {
@@ -41,6 +41,40 @@ h4 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.presentacion-mascotas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+  background-color: rgb(168, 184, 197);
+}
+
+.presentacion-mascotas div {
+  border: black solid 3px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.presentacion-mascotas img {
+  height: 150px;
+}
+
+.presentacion-mascotas div p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+  margin-top: -10px;
+}
+
+@media (max-width: 670px) {
+  .presentacion-mascotas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    background-color: rgb(168, 184, 197);
+  }
+}
 * {
   margin: 0%;
   padding: 0%;
@@ -61,7 +95,7 @@ h1 {
 
 h1:hover {
   transform: scale(1.1);
-  transition: transform 0.7s;
+  transition: transform 2s;
 }
 
 h2 {
