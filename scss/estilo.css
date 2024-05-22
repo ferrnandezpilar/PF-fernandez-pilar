@@ -41,6 +41,11 @@ h4 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.main-estilo-index {
+  max-width: 80%;
+  margin: auto;
+}
+
 .presentacion-mascotas {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
