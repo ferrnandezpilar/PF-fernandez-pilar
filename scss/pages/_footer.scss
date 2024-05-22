@@ -1,0 +1,27 @@
+.footer1{  
+    background-color: rgb(227, 240, 252);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer1 p{
+text-align: left;
+padding: 2%;
+font-size: 15px;
+}
+
+.footer1 p:hover {
+    transform: scale(1.1);
+   transition: transform 0.7s; 
+}
+
+@media (max-width:670px){
+    .footer1{  
+        background-color: rgb(227, 240, 252);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+      
+}
