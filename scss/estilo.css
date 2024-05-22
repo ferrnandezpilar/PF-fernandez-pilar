@@ -134,6 +134,101 @@ h4 {
   text-decoration: underline;
 }
 
+@media (max-width: 670px) {
+  .adopcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(168, 184, 197);
+  }
+  .adopcion p {
+    font-size: 15px;
+  }
+}
+.main-estilo {
+  max-width: 80%;
+  margin: auto;
+}
+
+.conocelos {
+  display: flex;
+  background-color: rgb(168, 184, 197);
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.conocelos img {
+  max-width: 70%;
+}
+
+.conocelos p {
+  font-size: 23px;
+}
+
+@media (max-width: 670px) {
+  .conocelos {
+    display: flex;
+    background-color: rgb(168, 184, 197);
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .conocelos img {
+    height: 200px;
+  }
+  .conocelos p {
+    font-size: 15px;
+  }
+}
+.main-estilo {
+  max-width: 80%;
+  margin: auto;
+}
+
+.mensajeria {
+  background-color: rgb(168, 184, 197);
+}
+
+.container-contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(168, 184, 197);
+}
+
+.main-estilo {
+  max-width: 80%;
+  margin: auto;
+}
+
+.nosotros {
+  display: flex;
+  background-color: rgb(168, 184, 197);
+  flex-direction: column;
+}
+
+.nosotros img {
+  max-width: 70%;
+}
+
+.nosotros p {
+  font-size: 22px;
+}
+
+@media (max-width: 670px) {
+  .nosotros {
+    display: flex;
+    background-color: rgb(168, 184, 197);
+    flex-direction: column;
+  }
+  .nosotros img {
+    width: 300px;
+    margin: 15px;
+  }
+  .nosotros p {
+    font-size: 15px;
+  }
+}
 * {
   margin: 0%;
   padding: 0%;

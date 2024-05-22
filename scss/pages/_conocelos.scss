@@ -1,0 +1,37 @@
+.main-estilo {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .conocelos{
+    display: flex;
+    background-color: rgb(168, 184, 197);
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.conocelos img {
+    max-width: 70%;
+}
+.conocelos p{
+    font-size: 23px;
+}
+
+
+@media (max-width:670px){
+
+    .conocelos{
+        display: flex;
+        background-color: rgb(168, 184, 197);
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .conocelos img{
+        height: 200px;
+        
+    }
+    
+    .conocelos p{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,34 @@
+.main-estilo {
+    max-width: 80%;
+    margin: auto;
+  }
+  .nosotros {
+    display: flex;
+    background-color: rgb(168, 184, 197);
+    flex-direction: column;
+ }
+
+
+.nosotros img {
+        max-width: 70%;}
+    
+.nosotros p{
+    font-size: 22px;
+}
+
+@media (max-width:670px){
+
+    .nosotros {
+        display: flex;
+        background-color: rgb(168, 184, 197);
+        flex-direction: column;
+     }
+    .nosotros img{
+        width: 300px;
+        margin: 15px;
+        }
+        
+    .nosotros p{
+        font-size: 15px;
+    }
+}
