@@ -1,0 +1,36 @@
+h1{
+    background-color: rgb(168, 184, 197);
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1:hover {
+     transform: scale(1.1);
+    transition: transform 0.7s; 
+}
+  
+h2 {
+    text-align: center;
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+}
+
+h2:hover {
+    transform: scale(0.8); 
+    transition: transform 0.7s;
+}
+
+h3{
+    background-color: white;
+    text-align: center;
+}
+h3:hover {
+    transform: scale(1.1);
+   transition: transform 0.7s; 
+}
+
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+   
