@@ -1,0 +1,8 @@
+1.-- Agregue etiquetas meta keywords en todas las pages
+
+2.-- Agregue etiquetas meta description a todas las pages
+
+3.-- Puse todos los ALT de las imágenes con nombres de cada imagen
+
+4.-- Mejore algunos párrafos haciéndolos más cortos para poner un imágenes en una pages que notaba que tenia más texto
+
