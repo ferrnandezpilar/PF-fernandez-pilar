@@ -183,13 +183,21 @@ h4{
 }
 
 .footer1 p{
-text-align: left;
-padding: 2%;
-font-size: 15px;
+    text-align: left;
+    padding: 2%;
+    font-size: 15px;
 }
 .footer1 p:hover {
     transform: scale(1.1);
    transition: transform 0.7s; 
+}
+.footer-2{
+    text-align: center;
+    padding: 5px;
+    background-color:rgb(168, 184, 197);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    bottom: 0;
+    width: 100%;  
 }
 
 @media (max-width:670px){
@@ -254,5 +262,13 @@ font-size: 15px;
         align-items: center;
         flex-direction: column;
     }
+    .footer-2{
+        text-align: center;
+        padding: 5px;
+        background-color:rgb(168, 184, 197);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        bottom: 0;
+        width: 100%;  
+      }
        
 }

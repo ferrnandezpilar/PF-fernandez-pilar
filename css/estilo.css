@@ -183,6 +183,14 @@ h4 {
   transform: scale(1.1);
   transition: transform 0.7s;
 }
+.footer-2{
+  text-align: center;
+  padding: 5px;
+  background-color:rgb(168, 184, 197);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  bottom: 0;
+  width: 100%;  
+}
 
 @media (max-width: 670px) {
   h1 {
@@ -236,6 +244,14 @@ h4 {
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+  .footer-2{
+    text-align: center;
+    padding: 5px;
+    background-color:rgb(168, 184, 197);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    bottom: 0;
+    width: 100%;  
   }
 }
 
