@@ -6,3 +6,9 @@
 
 4.-- Mejore algunos párrafos haciéndolos más cortos para poner un imágenes en una pages que notaba que tenia más texto
 
+5.-- Se cambio el tamaño de algunas imágenes
+
+6.-- Se agregó términos y condiciones en el footer
+
+7.-- Subí mi page a un servidor
+
